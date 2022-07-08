@@ -1,0 +1,19 @@
+$TTL 300
+; generated with dnscontrol 2022-07-08T16:53:51+10:00
+@                IN SOA   resolv-au1sr-1.thefathacker.net. thefathacker.thefathacker.tech. 2022070800 3600 600 604800 1440
+                 IN NS    resolv-au1sr-1.thefathacker.net.
+                 IN NS    resolv-au1sr-2.thefathacker.net.
+3.16             IN PTR   dc-au1sr-1.thefathacker.net.
+4.17             IN PTR   es-au1sw-2.thefathacker.net.
+252.30           IN PTR   truenas-au1sa-1.thefathacker.net.
+252.31           IN PTR   truenas-au1sa-1.thefathacker.net.
+2.32             IN PTR   resolv-au1sr-2.thefathacker.net.
+3.32             IN PTR   dc-au1sr-2.thefathacker.net.
+2.33             IN PTR   aad-au1sr-1.thefathacker.net.
+5.33             IN PTR   wsus-au1sr-1.thefathacker.net.
+6.33             IN PTR   kms-au1sr-1.thefathacker.net.
+7.33             IN PTR   deploy-au1sr-1.thefathacker.net.
+8.33             IN PTR   vc-au1sr-1.thefathacker.net.
+63.33            IN PTR   netbox-au1sr-1.thefathacker.net.
+64.33            IN PTR   pgsql-au1sr-1.thefathacker.net.
+65.33            IN PTR   mssql-au1sr-1.thefathacker.net.
