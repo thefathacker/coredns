@@ -3,6 +3,7 @@
     errors
     whoami
     chaos CoreDNS_Resolver thefathacker@thefathacker.tech
+    root /etc/coredns
 }
 . {
     import common
