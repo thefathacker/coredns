@@ -13,3 +13,8 @@ sudo git clone https://github.com/thefathacker/coredns.git /etc/coredns/
 sudo ln -s /etc/coredns/coredns-sysusers.conf /usr/lib/sysusers.d/
 sudo ln -s /etc/coredns/coredns-tmpfiles.conf /usr/lib/tmpfiles.d/
 sudo ln -s /etc/coredns/coredns.service /etc/systemd/system/
+sudo useradd -m -d /var/lib/coredns coredns
+sudo systemctl daemon-reload
+sudo systemctl enable --now coredns.service
+
+add contents of crontab to crontab
