@@ -1,1 +1,1 @@
-*/5 * * * * root "cd /etc/coredns/ && git pull -q origin main && systemctl reload coredns.service"
+*/5 * * * * root /etc/coredns/cron.sh

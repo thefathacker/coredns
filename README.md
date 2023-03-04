@@ -16,5 +16,6 @@ sudo ln -s /etc/coredns/coredns.service /etc/systemd/system/
 sudo useradd -m -d /var/lib/coredns coredns
 sudo systemctl daemon-reload
 sudo systemctl enable --now coredns.service
+sudo chmod +x /etc/coredns/cron.sh
 
 add contents of crontab to crontab
