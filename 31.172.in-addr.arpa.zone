@@ -1,7 +1,0 @@
-$TTL 300
-; generated with dnscontrol 2022-07-08T16:53:51+10:00
-@                IN SOA   resolv-au1sr-1.thefathacker.net. thefathacker.thefathacker.tech. 2022070800 3600 600 604800 1440
-                 IN NS    resolv-au1sr-1.thefathacker.net.
-                 IN NS    resolv-au1sr-2.thefathacker.net.
-2.16             IN PTR   resolv-au1sr-1.thefathacker.net.
-3.16             IN PTR   dc-au1sr-1.thefathacker.net.
