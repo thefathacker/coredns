@@ -12,7 +12,12 @@ var NSSERVERS = [
 
 D(REV('192.168.0.0/16'), REG_NONE, DnsProvider(DNS_BIND), NSSERVERS, 
     PTR('192.168.0.0', 'dns-primary.thefathacker.net.'),
-    PTR('192.168.255.0', 'dns-primary.thefathacker.net.')
+    PTR('192.168.255.0', 'dns-secondary.thefathacker.net.')
+);
+D(REV('fdff::/48'), REG_NONE, DnsProvider(DNS_BIND), NSSERVERS, 
+    PTR('fdff::', 'dns-primary.thefathacker.net.'),
+    PTR('fdff:0:0:0:ff::', 'dns-secondary.thefathacker.net.'),
+    PTR('fdff:0:0:0:40::2', 'pf-au1fw-3.thefathacker.net.')
 );
 D(REV('172.31.0.0/16'), REG_NONE, DnsProvider(DNS_BIND), NSSERVERS, 
     PTR('172.31.0.0', 'pf-au1fw-3.thefathacker.net.'),
