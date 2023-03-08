@@ -1,7 +1,8 @@
 $TTL 300
-; generated with dnscontrol 2023-03-05T11:14:14+10:00
-@                IN SOA   DEFAULT_NOT_SET. DEFAULT_NOT_SET. 2023030500 3600 600 604800 1440
+; generated with dnscontrol 2023-03-08T16:20:44+10:00
+@                IN SOA   DEFAULT_NOT_SET. DEFAULT_NOT_SET. 2023030800 3600 600 604800 1440
                  IN NS    dns-primary.thefathacker.net.
                  IN NS    dns-secondary.thefathacker.net.
 0.0              IN PTR   dns-primary.thefathacker.net.
+2.64             IN PTR   pf-au1fw-3.thefathacker.net.
 0.255            IN PTR   dns-secondary.thefathacker.net.

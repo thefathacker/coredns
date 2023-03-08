@@ -1,11 +1,17 @@
 $TTL 300
-; generated with dnscontrol 2023-03-04T20:56:39+10:00
-@                IN SOA   DEFAULT_NOT_SET. DEFAULT_NOT_SET. 2023030400 3600 600 604800 1440
+; generated with dnscontrol 2023-03-08T16:20:44+10:00
+@                IN SOA   DEFAULT_NOT_SET. DEFAULT_NOT_SET. 2023030800 3600 600 604800 1440
                  IN NS    dns-primary.thefathacker.net.
                  IN NS    dns-secondary.thefathacker.net.
 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.f.1 IN PTR pf-au1fw-3.thefathacker.net.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.f.1 IN PTR rb-au1ro-1.thefathacker.net.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.f.1 IN PTR rb-au1ro-1.thefathacker.net.
+3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.f.1 IN PTR pf-au1fw-1.thefathacker.net.
+4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.f.1 IN PTR pf-au1fw-2.thefathacker.net.
+9.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.1 IN PTR pf-au1fw-1.thefathacker.net.
+d.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.1 IN PTR pf-au1fw-1.thefathacker.net.
+1.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.1 IN PTR pf-au1fw-2.thefathacker.net.
+5.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.1 IN PTR pf-au1fw-2.thefathacker.net.
 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1.f.1 IN PTR vrrp.thefathacker.net.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1.f.1 IN PTR resolv-au1sr-1.thefathacker.net.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1.f.1 IN PTR dc-au1sr-1.thefathacker.net.
