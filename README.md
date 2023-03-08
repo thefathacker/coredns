@@ -26,6 +26,7 @@ sudo sed -i 's/ospfd=no/ospfd=yes/' /etc/frr/daemons
 sudo sed -i 's/ospf6d=no/ospf6d=yes/' /etc/frr/daemons
 sudo systemctl restart frr.service
 
+
 sudo vtysh
 configure terminal
 router-id [LANIPADDR]
@@ -33,15 +34,22 @@ interface lo
 ip address 192.168.0.0/32
 ipv6 address fdff::/128
 ip ospf area 172.31.0.0
+ipv6 ospf6 area 172.31.0.0
 exit
 interface ens192
 ip ospf network broadcast
 ip ospf area 172.31.0.0
+ipv6 ospf6 area 172.31.0.0
 exit
 router ospf
-ospf router-id 172.31.0.0
+ospf router-id [LANIPADDR]
+exit
+router ospf6
+ospf router-id [LANIPADDR]
 exit
 write memory
 exit
 
-Allow OSPF on Firewall
+Disable Firewall Because allowing ospf though firewalld does not appear to work
+
+sudo systemctl disable --now firewalld
