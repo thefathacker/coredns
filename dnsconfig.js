@@ -49,6 +49,8 @@ D(REV('172.31.0.0/16'), REG_NONE, DnsProvider(DNS_BIND), NSSERVERS,
     PTR('172.31.16.3', 'dc-au1sr-1.thefathacker.net.'),
     PTR('172.31.16.4', 'mssql-au1sr-1.thefathacker.net.'),
     PTR('172.31.16.5', 'deploy-au1sr-1.thefathacker.net.'),
+    PTR('172.31.16.6', 'psql-au1sr-1.thefathacker.net.'),
+    PTR('172.31.16.7', 'netbox-au1sr-1.thefathacker.net.'),
     PTR('172.31.224.1', 'pf-au1fw-3.thefathacker.net.'),
     PTR('172.31.240.1', 'pf-au1fw-3.thefathacker.net.'),
     PTR('172.31.244.1', 'pf-au1fw-3.thefathacker.net.')
@@ -73,5 +75,7 @@ D(REV('fd03:580b:a316::/48'), REG_NONE, DnsProvider(DNS_BIND), NSSERVERS,
     PTR('fd03:580b:a316:1f10::2', 'resolv-au1sr-1.thefathacker.net.'),
     PTR('fd03:580b:a316:1f10::3', 'dc-au1sr-1.thefathacker.net.'),
     PTR('fd03:580b:a316:1f10::4', 'mssql-au1sr-1.thefathacker.net.'),
-    PTR('fd03:580b:a316:1f10::5', 'deploy-au1sr-1.thefathacker.net.')
+    PTR('fd03:580b:a316:1f10::5', 'deploy-au1sr-1.thefathacker.net.'),
+    PTR('fd03:580b:a316:1f10::6', 'psql-au1sr-1.thefathacker.net.'),
+    PTR('fd03:580b:a316:1f10::7', 'netbox-au1sr-1.thefathacker.net.')
 );
