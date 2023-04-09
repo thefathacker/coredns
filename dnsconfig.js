@@ -20,6 +20,9 @@ D(REV('fdff::/48'), REG_NONE, DnsProvider(DNS_BIND), NSSERVERS,
     PTR('fdff:0:0:0:ff::', 'dns-secondary.thefathacker.net.'),
     PTR('fdff:0:0:0:40::2', 'pf-au1fw-3.thefathacker.net.')
 );
+D(REV('172.30.0.0/16'), REG_NONE, DnsProvider(DNS_BIND), NSSERVERS, 
+    PTR('172.30.16.16', 'vc-eu1sr-1.thefathacker.net.')
+)
 D(REV('172.31.0.0/16'), REG_NONE, DnsProvider(DNS_BIND), NSSERVERS, 
     PTR('172.31.0.0', 'pf-au1fw-3.thefathacker.net.'),
     PTR('172.31.0.1', 'rb-au1ro-1.thefathacker.net.'),
