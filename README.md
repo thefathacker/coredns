@@ -18,7 +18,7 @@ sudo systemctl daemon-reload
 sudo systemctl enable --now coredns.service
 sudo chmod +x /etc/coredns/cron.sh
 
-add contents of crontab to crontab
+add contents of crontab to /etc/crontab
 
 ### Fedora Install - FRR
 sudo dnf install -y frr
@@ -34,7 +34,7 @@ interface lo
 ip address 192.168.0.0/32
 ipv6 address fdff::/128
 ip ospf area 172.31.0.0
-ipv6 ospf6 area 172.31.0.0
+ipv6 ospf6 passive
 exit
 interface ens192
 ip ospf network broadcast
@@ -43,6 +43,7 @@ ipv6 ospf6 area 172.31.0.0
 exit
 router ospf
 ospf router-id [LANIPADDR]
+passive-interface lo0
 exit
 router ospf6
 ospf router-id [LANIPADDR]

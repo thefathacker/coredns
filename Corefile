@@ -12,7 +12,7 @@
 }
 thefathacker.net {
     import common
-    forward . 172.31.16.3 fd03:580b:a316:1f10::3 172.30.16.3 fd00:70ff:b139:1e10::3 {
+    forward . 172.31.16.3 fd03:580b:a316:1f10::3 172.31.32.3 fd03:580b:a316:1f20::3 {
         policy round_robin
     }
 }
