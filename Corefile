@@ -28,9 +28,9 @@ thefathacker.net {
     import common
     file zones/168.192.in-addr.arpa.zone
 }
-30.172.in-addr.arpa {
+29.172.in-addr.arpa {
     import common
-    file zones/30.172.in-addr.arpa.zone
+    file zones/29.172.in-addr.arpa.zone
 }
 31.172.in-addr.arpa {
     import common

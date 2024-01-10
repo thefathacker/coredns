@@ -1,6 +1,0 @@
-$TTL 300
-; generated with dnscontrol 2023-04-09T14:30:18+10:00
-@                IN SOA   DEFAULT_NOT_SET. DEFAULT_NOT_SET. 2023040900 3600 600 604800 1440
-                 IN NS    dns-primary.thefathacker.net.
-                 IN NS    dns-secondary.thefathacker.net.
-16.16            IN PTR   vc-eu1sr-1.thefathacker.net.
